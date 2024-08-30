@@ -39,9 +39,19 @@ I predict average number of push ups based on position. Push ups is a numerical 
 
 ## Descriptive Results
 
+
+
+
 ### Graphical Descriptive Results
 
+
+```{r}
+boxplot(pushups~position,data=pushups)
+```
+
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+This boxplot shows that on average skill positions do more pushups in two minutes than do the line players.
 
 ### Numerical Descriptive Results
 
