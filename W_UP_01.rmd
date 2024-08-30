@@ -55,7 +55,27 @@ This boxplot shows that on average skill positions do more pushups in two minute
 
 ### Numerical Descriptive Results
 
-<!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+<!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused towa
+```
+
+
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+```{r chunk 3}
+favstats(pushups~position,data=mydata)
+```
 
 ## Inferential Results
 
